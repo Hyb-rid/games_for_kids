@@ -47,7 +47,7 @@ var on_image_1_click = function(){
 }
 var on_cancel_click=function(){
     var a=0;
-    window.location.href = "file:///C:/Programming/webDev/games_website/index.html";
+    window.location.href = "index.html";
 }
 
 
