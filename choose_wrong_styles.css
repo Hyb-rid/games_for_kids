@@ -1,0 +1,68 @@
+﻿html
+{
+}
+body
+{
+    background-color:rgb(133, 78, 142);
+}
+.challenge {
+    position: absolute;
+    padding: 235px 8px 1px 832px;
+    pointer-events: none;
+}
+.image-gallery
+{
+    position: absolute;
+    padding: 445px 28px 1px 482px;
+}
+.image
+{
+    width:200px;
+    margin-right:26px;
+}
+.wrong
+{
+    background-color: red;
+}
+.right
+{
+    background-color: green;
+}
+.win-notification
+{
+    position: absolute;
+    padding: 0px 8px 1px 892px;
+    pointer-events: none;
+}
+.hidden
+{
+    color:rgba(0, 0, 0,0);
+}
+#cancel {
+    width: 170px;
+    padding: 10px 151px 1px 300px;
+    position: absolute;
+    z-index:3;
+}
+#time
+{
+    width:50px;
+    height:20px;
+    text-align:center;
+    margin: 5px 0px 0px 3px;
+    border-radius:12px;
+    border:2px solid black;
+    background-color:yellow;
+}
+#clock
+{
+    width:60px;
+    height:33px;
+    position:absolute;
+    left:1397px;
+    top:100px;
+    border-radius:12px;
+    border:2px solid black;
+    background-color:yellow;
+}
+
