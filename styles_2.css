@@ -1,0 +1,25 @@
+﻿body
+{
+    background-color:rgb(231, 233, 62);
+}
+h2
+{
+    text-align:left;
+    text-decoration:underline;
+}
+.exercise-icon
+{
+    width:100px;
+    border-radius:6px;
+    background-color:rgb(251, 66, 66);
+}
+#language-toggle{
+    text-align:center;
+    width:88px;
+    height:73px;
+    position:absolute;
+    border-radius:22px;
+    left:1760px;
+    top:13px;
+    background-color:rgb(255, 255, 255);
+}
