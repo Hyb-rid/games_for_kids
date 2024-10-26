@@ -63,7 +63,7 @@ var on_image_4_click = function(){
 }
 var on_cancel_click=function(){
     var a=0;
-    window.location.href = "file:///C:/Programming/webDev/games_website/index.html";
+    window.location.href = "https://hyb-rid.github.io/games_for_kids";
 }
 
 
