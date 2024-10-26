@@ -1,46 +1,47 @@
-﻿body{
-    background-color:green;
+﻿body
+{
+    background-color:rgb(170, 72, 72);
 }
 #challenge {
-    padding: 80px 8px 1px 762px;
+    padding: 0px 8px 1px 832px;
 }
-
-.image-gallery {
-    padding: 0px 28px 1px 810px;
+.image-gallery
+{
+    padding: 74px 28px 1px 592px;
 }
-.main-image-gallery {
-    padding: 80px 228px 122px 765px;
-}
-.image {
-    width: 50px;
+.image
+{
+    width: 200px;
     margin-right: 26px;
-    border: 2px ridge white;
+}
+#main-image
+{
+    width:500px;
+    padding: 60px 1px 2px 600px;
+}
+.wrong
+{
+    background-color:red;
 }
 
-.wrong {
-    border: 2px ridge red;
+.right
+{
+    background-color: green;
 }
 
-.right {
-    border: 2px ridge green;
+#win-notification
+{
+    padding: 0px 8px 1px 892px;
 }
 
-#win-notification {
-    padding: 0px 8px 1px 875px;
-}
-
-.hidden {
+.hidden
+{
     color: rgba(0, 0, 0,0);
 }
-
 #cancel
 {
     width:170px;
-    padding: 10px 151px 1px 440px;
-}
-
-.main-image {
-    width: 100px;
+    padding: 0px 1px 1px 440px;
 }
 #time {
     width: 50px;
