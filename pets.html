@@ -4,21 +4,24 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="pets_styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-    <img id="cancel" src="cancel.svg" />
-    <h1 class="hidden" id="win-notification">Правильно!</h1>
-    <h1 id="challenge">Я не могу найти свою кошку. Где моя кошка?</h1>
-    <img id="main-image" src="pets_4.png" />
-    <div class="image-gallery">
-        <img id="1" class="image" src="pets_1.png" />
-        <img id="2" class="image" src="pets_2.png" />
-        <img id="3" class="image" src="pets_3.png" />
-    </div>
-    <div id="clock">
-        <div id="time"></div>
-    </div>
-    <script src="pets_script.js"></script>
+    <header>
+        <img id="exit" src="../../images/exit.svg" />
+        <div id="time"><p id="time-text"></p></div>
+        <button id="language-toggle">RU</button>
+    </header>
+    <main>
+        <h1 class="hidden" id="answer-react">hidden</h1>
+        <h1 id="challenge">Я не могу найти свою кошку. Где моя кошка?</h1>
+        <img id="main-image" src="images/pets_4.png" />
+        <div class="image-gallery">
+            <img id="image-1" class="image" src="images/pets_1.png" />
+            <img id="image-2" class="image" src="images/pets_2.png" />
+            <img id="image-3" class="image" src="images/pets_3.png" />
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
