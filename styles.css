@@ -7,11 +7,26 @@ h2
     text-align:left;
     text-decoration:underline;
 }
-.exercise-icon
+/*.exercise-icon
 {
     width:100px;
     border-radius:6px;
     background-color:rgb(251, 66, 66);
+}*/
+img
+{
+    width: 5%;
+    border-radius: 8px;
+    background-color:whitesmoke;
+    
+}
+#math-img
+{
+    padding: 4px;
+}
+#pre-school-img
+{
+    padding:4px;
 }
 #language-toggle{
     text-align:center;
