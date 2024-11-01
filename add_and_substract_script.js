@@ -19,8 +19,8 @@ var countdown = 0;
 var h1_list = ["Дұрыс шешімді таңдау"];
 var h1_list_2 = ["Выбери правильное решение"];
 var h1_tags = document.getElementsByTagName("h1");
-var correct_answer = new Audio("../../correct_answer.mp3");
-var wrong_answer = new Audio("../../wrong_answer.mp3");
+var correct_answer = new Audio("correct_answer.mp3");
+var wrong_answer = new Audio("wrong_answer.mp3");
 
 
 
@@ -100,7 +100,7 @@ var on_image_3_click = function () {
 }
 var on_cancel_click = function () {
     var a = 0;
-    window.location.href = "file:///C:/Programming/webDev/games_website/index.html";
+    window.location.href = "index.html";
 }
 
 
