@@ -176,3 +176,9 @@ main {
     max-width: 250px;
     margin-bottom:15px;
 }
+h1
+{
+    font-family:cursive;
+    font-weight:300;
+    color:rgb(20, 11, 11);
+}
