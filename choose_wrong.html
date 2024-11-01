@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="choose_wrong_styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <img id="cancel" src="cancel.svg" />
-    <div class="win-notification hidden" id="0"><h1>Правильно!</h1></div>
-    <div class="challenge">
-        <h1>Выбери лишнее</h1>
-    </div>
-    <div class="image-gallery">
-        <img class="image" id="1" src="choose_wrong_1.svg" />
-        <img class="image" id="2" src="choose_wrong_2.svg" />
-        <img class="image" id="3" src="choose_wrong_3.svg" />
-        <img class="image" id="4" src="choose_wrong_4.svg" />
-    </div>
-
-        <div id="clock">
-            <div id="time"></div>
+    <header>
+        <img id="exit" src="../../images/exit.svg" />
+        <div id="time"><p id="time-text"></p></div>
+        <button id="language-toggle">RU</button>
+    </header>
+    <main>
+        <h1 class="hidden" id="answer-react">hidden</h1>
+        <h1 id="challenge">Выбери лишнее</h1>
+        <div class="image-gallery">
+            <img class="image" id="1" src="images/choose_wrong_1.svg" />
+            <img class="image" id="2" src="images/choose_wrong_2.svg" />
+            <img class="image" id="3" src="images/choose_wrong_3.svg" />
+            <img class="image" id="4" src="images/choose_wrong_4.svg" />
         </div>
+    </main>
+    
     <script src="choose_wrong_script.js"></script>
 </body>
 </html>
