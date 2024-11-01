@@ -169,18 +169,18 @@ main {
 
 #image-1-wrong {
     border: 3px solid red;
-    width: max(3rem,4vw);
+    width: max(2rem,3vw);
 }
 
 #image-2-wrong {
     border: 3px solid red;
-    height: max(3rem,5.2vw);
-    width: max(3rem, 4vw);
+    height: max(2rem,3.9vw);
+    width: max(2rem, 3vw);
 }
 
 #image-3-right {
     border: 3px solid green;
-    width: max(3rem, 4vw);
+    width: max(2rem, 3vw);
 }
 .main-image
 {
