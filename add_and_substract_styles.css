@@ -193,3 +193,9 @@ main {
     
     margin-right:7px;
 }
+h1
+{
+    font-family:cursive;
+    font-weight:300;
+    color:rgb(20, 11, 11);
+}
